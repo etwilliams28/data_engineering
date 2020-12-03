@@ -1,1 +1,1 @@
-From Postgres to Apache.
+This repo contains all projects from udacity Data Engeineering Program. This course provided myself with a good working knowledge of working with different databases, whiles also understanding core concepts like OLAP/OLTP.
