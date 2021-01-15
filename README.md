@@ -22,7 +22,7 @@ This Star Schema includes 1 fact and 4 dimenston tables:
     
    ### Dimension Tables:
    
-    <b>User Table</b>
+   <b>User Table</b>
      
    -  user_id int,
    -  first_name VARCHAR,
@@ -31,7 +31,7 @@ This Star Schema includes 1 fact and 4 dimenston tables:
    -  level VARCHAR,
    -  PRIMARY KEY (user_id)
     
-    <b>Song Table</b>
+   <b>Song Table</b>
     
    -  song_id VARCHAR(18),
    -  title VARCHAR NOT NULL,
@@ -40,7 +40,7 @@ This Star Schema includes 1 fact and 4 dimenston tables:
    -  duration FLOAT NOT NULL,
    -  PRIMARY KEY (song_id)
     
-    <b>Artist Table</b>
+   <b>Artist Table</b>
     
    -  artist_id VARCHAR(18),
    -  name VARCHAR,
@@ -49,7 +49,7 @@ This Star Schema includes 1 fact and 4 dimenston tables:
    -  longitude FLOAT,
    -  PRIMARY KEY (artist_id)
     
-    <b>Time Table</b>
+   <b>Time Table</b>
     
    -  start_time TIMESTAMP NOT NULL,
    -  hour int NOT NULL,
