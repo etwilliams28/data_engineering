@@ -77,24 +77,24 @@ In this project we will be working within a jupyter notebook file. The ouline of
   1. We will process the event_datafile_new.csv dataset to create a denormalized dataset
   2. We will model the data tables with our queries in mind
   3. We will provide queries that we will need to model the data tables for 
-  4. We will load the data into tables we create in Apache Cassandra dn run the queries 
+  4. We will load the data into tables we create in Apache Cassandra to run the queries 
   
 
 ## Project Steps
 Below are the following steps used to create this project
 
-### Modeling your NoSQL database or Apache Cassandra database
-2. Design tables to answer the queries outlined in the project template
-3. Write Apache Cassandra CREATE KEYSPACE and SET KEYSPACE statements
-4. Develop your CREATE statement for each of the tables to address each question
-5. Load the data with INSERT statement for each of the tables
-6. Include IF NOT EXISTS clauses in your CREATE statements to create tables only if the tables do not already exist. We recommend you also include DROP TABLE statement for each table, this way you can run drop and create tables whenever you want to reset your database and test your ETL pipeline
-7. Test by running the proper select statements with the correct WHERE clause
+### Modeling ythe NoSQL database or Apache Cassandra database
+1. Design tables to answer the queries outlined in the project template
+2. Write Apache Cassandra CREATE KEYSPACE and SET KEYSPACE statements
+3. Develop a CREATE statement for each of the tables to address each question
+4. Load the data with INSERT statement for each of the tables
+5. Include IF NOT EXISTS clauses in the CREATE statements to create tables only if the tables do not already exist. It is recommend that we also include DROP TABLE statement for each table, this way we can run drop and create tables whenever we want to reset the database and test the ETL pipeline
+6. Test by running the proper select statements with the correct WHERE clause
 
 ### Build ETL Pipeline
 1. Implement the logic in section Part I of the notebook template to iterate through each event file in event_data to process and create a new CSV file in Python
-2. Make necessary edits to Part II of the notebook template to include Apache Cassandra CREATE and INSERT statements to load processed records into relevant tables in your data model
-3. Test by running SELECT statements after running the queries on your database
+2. Make necessary edits to Part II of the notebook template to include Apache Cassandra CREATE and INSERT statements to load processed records into relevant tables in the data model
+3. Test by running SELECT statements after running the queries on the database
  
  
  
